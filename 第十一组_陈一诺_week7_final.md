@@ -110,7 +110,7 @@ module_config {
   }
 }
 ```
-![dag](../imges/dag.jpg)
+![dag](./imges/dag.jpg)
 #### 2.2.2 配置文件修改
 修改```localization.conf```关键配置：
 ```
@@ -127,13 +127,13 @@ module_config {
 mainboard -d modules/localization/dag/dag_streaming_rtk_localization.dag
 ```
 3. 监控定位状态：
-![monitor](../imges/monitor.jpg)
+![monitor](./imges/monitor.jpg)
 监控各通道运行状态
 4. 检查定位输出：
-![po](../imges/po.jpg)
+![po](./imges/po.jpg)
 INS状态显示组合导航正常
 5. GNSS状态确认：
-![wending](../imges/wending.jpg)
+![wending](./imges/wending.jpg)
 显示RTK稳定解，定位定向正常
 
 ### 2.3 NDT定位与精度评估
@@ -165,10 +165,10 @@ mainboard -d modules/localization/dag/dag_streaming_ndt_localization.dag
 mainboard -d modules/localization/dag/dag_streaming_msf_visualizer.dag
 ```
 3. 可视化界面：
-![tu2](../imges/tu2.jpg)
+![tu2](./imges/tu2.jpg)
 可视化界面显示各模块状态
 4. 地图预览：
-![tu](../imges/tu.jpg)
+![tu](./imges/tu.jpg)
 NDT地图点云分布情况
 #### 2.3.3 精度评估
 1. 录制测试数据：
@@ -180,7 +180,7 @@ cyber_recorder record -a -i 600 -o ndt.record
 bash scripts/msf_local_evaluation.sh data/bag/ndt
 ```
 3. 评估结果：
-![j](../imges/j.jpg)
+![j](./imges/j.jpg)
 定位精度评估数据
 **关键指标分析：**
 - 横向精度：平均0.084m，标准差0.0025m
