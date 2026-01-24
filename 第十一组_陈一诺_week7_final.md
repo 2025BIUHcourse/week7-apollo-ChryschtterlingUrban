@@ -17,7 +17,7 @@
 /apollo/modules/calibration/data/shenlan_hooke/lidar_params/lidar_novatel_extrinsics.yaml
 ```
 - 启动必要的传感器模块：
-![apollo](./imges/apollo.jpg)
+![apollo](../imges/apollo.jpg)
 所有模块正常启动后显示的界面
 - 录制车辆行驶轨迹数据：
 ```
